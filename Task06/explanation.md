@@ -1,0 +1,19 @@
+# Q6 - Train journey planner
+
+Objective: compute the absolute same-day difference and compare two times symmetrically while retaining private hour/minute fields. Pseudocode: convert each to h*60+m; subtract and take absolute value; compare totals with <. Equal times have difference zero and neither is earlier. This is an absolute clock-time difference within one day, not an overnight journey duration: 23:59 and 00:00 differ by 1439 minutes. Invalid hours/minutes are rejected in the independent program; the supplied TODO constructor remains unchanged.
+
+A friend is an ordinary nonmember granted access to private state; call it minutesBetween(a,b). A member is called a.minutesTo(b) and has a this object. A nonmember using public getters has no privileged access. Friendship is convenient for a symmetric operation but is not inherently necessary merely because two objects participate: a member or getter-based function can implement the same result. Friendship is neither inherited, reciprocal nor transitive. Making fields public loses enforcement of valid clock values and exposes representation.
+
+The supplied exercise replaces only its two TODO regions and must produce `205 false`. Main checks morning/afternoon, identical times, noon, reversal, midnight endpoints, invalid times, and agreement among friend/member/getter implementations. `Reference/Q6_TODO_original.txt` preserves the original.
+
+## Benchmark methodology
+
+benchmark.cpp generates 4096 varied valid pairs before timing, using a fixed unsigned LCG seed for reproducibility. Each measured mode computes the difference and earlier predicate 10000000 times each (20000000 source-level calls total), accumulating into a 64-bit checksum. The same input indexing, operations and checksum check apply to all modes. An untimed warm-up supplies the reference checksum. There is no output, allocation, random generation or volatile write inside the timed loop. The final checksum is checked and printed, making the work observable. Five trials rotate execution order. Build separately at -O0 and -O2 with identical warning flags.
+
+The benchmark compares explicit inline friends, ordinary friends, members and getters in one translation unit. It intentionally allows the optimizer to inline ordinary functions too. It does not force calls with a function pointer or noinline attribute, because that would answer a different question. At -O2 machine-level call counts may be zero: '10000000 calls' describes the equivalent C++ operations. Loop indexing, arithmetic, cache effects and possible vectorization are part of the timings; subtracting them to invent a pure call overhead would be misleading. The deterministic repeated dataset is cache friendly and does not represent every application. Timings are local wall-clock observations with scheduler noise, not universal speed guarantees. See benchmark_results.md for actual results.
+
+## Complexity and recommendation
+
+All comparisons cost O(1) time and O(1) auxiliary space. Passing Time by const reference avoids a copy and allows temporary operands. Inline does not change Big-O. Benchmark input uses O(4096) storage and timing loops use O(1) extra space; total work is O(calls) per mode. `inline` permits matching definitions in multiple translation units and expresses a historical optimization hint; it does not guarantee inlining. Compilers can inline ordinary functions and decline inline functions.
+
+Prefer small symmetric nonmember friend comparisons here, keeping representation private. Member functions are equally defensible and getters are useful where public field accessors are a stable API. Choose based on API clarity and measured context rather than assuming the inline keyword is faster. The actual ordinary/inline comparison and member/getter costs are reported without a universal performance claim.
