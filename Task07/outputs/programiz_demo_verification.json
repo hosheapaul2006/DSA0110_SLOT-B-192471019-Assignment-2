@@ -1,7 +1,7 @@
 {
   "source": "Task07/programiz_demo.cpp",
-  "sha256": "b006332aed124ce1df2257cb717f19628ef8199136a1079445779137391b4d95",
-  "timestamp_utc": "2026-11-10T14:39:59.777294+00:00",
+  "sha256": "9ac0a00b8002bcb161a1d721b6cf28f0ac20333cdd3a500af9482cc52d50f83d",
+  "timestamp_utc": "2026-11-10T14:46:21.918243+00:00",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
     "-std=c++17",

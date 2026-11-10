@@ -26,18 +26,22 @@ int* highestPointer(int* marks,int count) {
 }
 void check(bool condition,const char* label) {
     if(!condition) throw std::runtime_error(label);
-    std::cout << "PASS " << label << '\n';
 }
 int main() {
     int marks[]={67,91,78,91};
+    std::cout << "Original highest=" << highestCopy(marks,4) << '\n';
     highest(marks,4)+=2;
+    std::cout << "After +2 through reference=" << marks[1] << '\n';
     check(marks[1]==93 && marks[3]==91,"moderate first highest by reference");
     highest(marks,4)=95;
+    std::cout << "After assignment to function call=" << marks[1] << '\n';
     check(marks[1]==95,"function call on assignment left side");
     int copy=highestCopy(marks,4); copy+=2;
     check(copy==97 && marks[1]==95,"copy is independent");
+    std::cout << "Changed copy=" << copy << ", stored mark=" << marks[1] << '\n';
     const int& readOnly=highestConst(marks,4);
     check(readOnly==95 && &readOnly==&marks[1],"const reference aliases array");
+    std::cout << "Const reference reads=" << readOnly << '\n';
     const int index=highestIndex(marks,4); marks[index]+=1;
     int* pointer=highestPointer(marks,4); *pointer+=1;
     check(marks[1]==97 && index==1 && pointer==&marks[1],"index and pointer update");

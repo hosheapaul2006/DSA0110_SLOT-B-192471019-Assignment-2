@@ -1,0 +1,24 @@
+{
+  "source": "Task01/validation.cpp",
+  "sha256": "69f395d6bcd4f7f13d245a55d5cbb65bc2bfdf20a0e8bf45176ac92a7679d0b3",
+  "timestamp_utc": "2026-11-10T14:46:12.836131+00:00",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\Task01\\validation.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task01\\validation.exe"
+  ],
+  "compile_exit": 0,
+  "optimization": "-O0",
+  "expected_diagnostic": null,
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task01\\validation.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

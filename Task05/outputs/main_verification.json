@@ -1,7 +1,7 @@
 {
   "source": "Task05/main.cpp",
-  "sha256": "51533a1ff9b0acab01d5ed6d6a67ba8c0a143d021f01e37a7b1fa583d886868e",
-  "timestamp_utc": "2026-11-10T14:36:03.779101+00:00",
+  "sha256": "439ad0a9df3f28138fa49a22f53ea213fdc2df0e2cf2aa0397d35758f8fae1cd",
+  "timestamp_utc": "2026-11-10T14:46:19.019223+00:00",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
     "-std=c++17",

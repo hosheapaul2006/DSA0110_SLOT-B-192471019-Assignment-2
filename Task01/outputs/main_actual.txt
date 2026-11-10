@@ -1,16 +1,5 @@
 10%: local=40500 value=45000 reference=40500 pointer=40500
-PASS passing modes
 15%: local=38250 value=45000 reference=38250 pointer=38250
-PASS passing modes
 25%: local=33750 value=45000 reference=33750 pointer=33750
-PASS passing modes
-PASS sequential concessions and rounding
 Sequential fee=25819
-PASS zero fee and 0/100 percent
-PASS large fee without overflow
-PASS invalid percentage rejected
-PASS invalid percentage rejected
-PASS negative fee and null pointer rejected
-PASS large object reads
-PASS large object reference mutation
 sizeof(long long)=8 sizeof(Student)=392 sizeof(pointer)=8

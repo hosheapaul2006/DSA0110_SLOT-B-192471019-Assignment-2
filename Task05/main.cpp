@@ -22,7 +22,6 @@ int BusTicket::issued=0;
 
 void check(bool condition,const char* label) {
     if(!condition) throw std::runtime_error(label);
-    std::cout << "PASS " << label << '\n';
 }
 void createTickets(int call) {
     BusTicket tickets[2]={BusTicket("Function A"),BusTicket("Function B")};

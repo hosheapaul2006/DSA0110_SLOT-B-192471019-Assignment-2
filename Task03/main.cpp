@@ -29,7 +29,6 @@ int templateCharge(Weight weight,bool express=false,bool insured=false) {
 }
 void check(bool condition,const char* label) {
     if(!condition) throw std::runtime_error(label);
-    std::cout << "PASS " << label << '\n';
 }
 int main() {
     const Quote quotes[]={charge(2),charge(2.0f),charge(2.5),charge(1500,true),

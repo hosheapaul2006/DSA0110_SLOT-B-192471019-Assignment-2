@@ -1,0 +1,18 @@
+PASS static counter initialized once
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Eva: Waiting
+PASS array beyond capacity
+Function call 1: issued=3
+Function A: Waiting
+Function B: Waiting
+Function call 2: issued=3
+Function A: Waiting
+Function B: Waiting
+PASS static counter persists across function calls and destruction
+PASS invalid passenger does not issue a seat
+PASS global counter alternative
+PASS separate offices support independent buses
+Issued: 3

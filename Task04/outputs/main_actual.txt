@@ -1,13 +1,3 @@
-PASS empty account
-PASS deposit and withdrawal
-PASS invalid and insufficient transactions leave state unchanged
-PASS withdraw exact balance
-PASS first ten require no shifts
-PASS eleventh discards oldest and shifts nine
-PASS last ten are transactions 3 through 12 in chronological order
-PASS two full-buffer insertions move eighteen records
-PASS balance overflow rejected
-PASS invalid opening account rejected
 Account HISTORY balance(paise)=1200
 3 D 100 300
 4 D 100 400

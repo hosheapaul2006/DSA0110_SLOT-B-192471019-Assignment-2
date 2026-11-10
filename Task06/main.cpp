@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdexcept>
+#include <utility>
 
 class Time {
     int h,m;
@@ -28,7 +29,6 @@ bool getterEarlier(const Time& a,const Time& b) {
 }
 void check(bool condition,const char* label) {
     if(!condition) throw std::runtime_error(label);
-    std::cout << "PASS " << label << '\n';
 }
 int main() {
     struct Test { int h1,m1,h2,m2,difference; bool firstEarlier; };

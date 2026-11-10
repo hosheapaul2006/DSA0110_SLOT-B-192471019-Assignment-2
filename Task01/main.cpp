@@ -25,7 +25,6 @@ void updateStudent(Student& student, int percent) { applyByReference(student.fee
 
 void check(bool condition, const char* label) {
     if (!condition) throw std::runtime_error(label);
-    std::cout << "PASS " << label << '\n';
 }
 int main() {
     const int rates[] = {10, 15, 25};
