@@ -1,0 +1,8 @@
+9:45 to 13:10 difference=205 earlier=true
+12:0 to 12:0 difference=0 earlier=false
+11:59 to 12:1 difference=2 earlier=true
+15:30 to 8:15 difference=435 earlier=false
+0:0 to 23:59 difference=1439 earlier=true
+23:59 to 0:0 difference=1439 earlier=false
+Supplied case: 205 false
+

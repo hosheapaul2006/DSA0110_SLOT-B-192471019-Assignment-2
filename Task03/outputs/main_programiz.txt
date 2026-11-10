@@ -4,7 +4,4 @@ charge(2.5): double kilograms = 150
 charge(1500,true): int grams = 130
 charge(1.0,false,true): double kilograms = 70
 charge(Parcel{1.2,true,true}): Parcel = 150
-PASS six overload selections
-PASS pricing equivalent alternatives
-PASS invalid weights rejected
 

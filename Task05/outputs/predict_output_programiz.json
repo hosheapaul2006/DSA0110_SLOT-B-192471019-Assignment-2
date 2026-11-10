@@ -1,0 +1,8 @@
+{
+  "source": "Task05/predict_output.cpp",
+  "sha256": "6351d1f218c8efa06d55c7d45d3c0618b3eaee54edb1b68cf51132ffb31fd132",
+  "timestamp_utc": "2026-11-10T14:47:55.471Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "result": "PASS",
+  "comparison": "Exact expected stdout prefix; only trailing whitespace/success banner allowed"
+}

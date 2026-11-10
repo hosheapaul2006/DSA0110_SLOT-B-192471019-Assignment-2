@@ -1,0 +1,8 @@
+{
+  "source": "Task05/complete_code.cpp",
+  "sha256": "183e20751af6e7f6e75d40a0dfacca0506ea9c8900a659c1ed216a3f568f2334",
+  "timestamp_utc": "2026-11-10T14:48:15.899Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "result": "PASS",
+  "comparison": "Exact expected stdout prefix; only trailing whitespace/success banner allowed"
+}

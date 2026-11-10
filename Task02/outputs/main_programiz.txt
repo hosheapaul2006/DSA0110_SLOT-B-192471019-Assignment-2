@@ -1,14 +1,7 @@
-PASS moderate first highest by reference
-PASS function call on assignment left side
-PASS copy is independent
-PASS const reference aliases array
-PASS index and pointer update
-PASS single element and mark boundaries
-PASS empty index and pointer sentinels
-PASS empty reference and invalid register rejected
-PASS ties choose first element
-PASS reference valid before growth
-PASS index reacquired after forced reallocation
-PASS recompute maximum after append
+Original highest=91
+After +2 through reference=93
+After assignment to function call=95
+Changed copy=97, stored mark=95
+Const reference reads=95
 Final moderated mark=97
 
