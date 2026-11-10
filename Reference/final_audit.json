@@ -1,0 +1,706 @@
+{
+  "timestamp_utc": "2026-11-10T15:04:39.109895+00:00",
+  "valid_source_count": 24,
+  "build_run_configurations": 26,
+  "diagnostic_only_sources": 2,
+  "programiz_programs": 12,
+  "current_screenshot_count": 19,
+  "historical_screenshot_count": 8,
+  "checks": [
+    {
+      "requirement": "Task01/complete_code.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task01/complete_code.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task01/complete_code.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task01/complete_code.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task01/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task01/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task01/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task01/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task01/predict_output.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task01/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task01/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task01/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task01/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task02/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task02/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task02/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task02/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task02/unsafe_local.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task02/unsafe_local.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task02/unsafe_local.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task02/unsafe_local.cpp expected diagnostic",
+      "status": "PASS",
+      "evidence": "PASS: warning captured; unsafe program NOT executed"
+    },
+    {
+      "requirement": "Task02/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task02/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task02/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task02/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task03/ambiguity.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task03/ambiguity.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task03/ambiguity.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task03/ambiguity.cpp expected diagnostic",
+      "status": "PASS",
+      "evidence": "PASS: expected ambiguity diagnostic"
+    },
+    {
+      "requirement": "Task03/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task03/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task03/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task03/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task03/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task03/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task03/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task03/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task04/baseline_growth.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task04/baseline_growth.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task04/baseline_growth.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task04/baseline_growth.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task04/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task04/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task04/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task04/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task04/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task04/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task04/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task04/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task05/complete_code.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task05/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task05/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task05/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task05/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task05/predict_output.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task05/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task05/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task05/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task05/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task06/benchmark.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task06/benchmark.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task06/complete_code.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task06/main.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task06/main.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task06/main.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task06/main.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task06/validation.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task06/validation.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task06/validation.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task06/validation.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task07/benchmark.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task07/benchmark.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task07/benchmark.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task07/benchmark.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task07/original.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task07/original.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task07/original.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task07/original.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task07/programiz_demo.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task07/redesigned.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task07/redesigned.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task07/redesigned.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task07/redesigned.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task07/validation_demo.cpp compilation record",
+      "status": "PASS",
+      "evidence": "Task07/validation_demo.cpp has a verification JSON"
+    },
+    {
+      "requirement": "Task07/validation_demo.cpp source unchanged",
+      "status": "PASS",
+      "evidence": "SHA256 matches actual compiled source"
+    },
+    {
+      "requirement": "Task07/validation_demo.cpp executed",
+      "status": "PASS",
+      "evidence": "Successful exit, no unexpected warnings/stderr"
+    },
+    {
+      "requirement": "Task01/outputs/predicted_output.txt immutable",
+      "status": "PASS",
+      "evidence": "Matches pre-execution commit c2a6ade"
+    },
+    {
+      "requirement": "Task01/outputs/predicted_output.txt chronological order",
+      "status": "PASS",
+      "evidence": "c2a6ade precedes recorded execution"
+    },
+    {
+      "requirement": "Task01/outputs/predicted_output.txt commit ancestor",
+      "status": "PASS",
+      "evidence": "Prediction commit is an ancestor of current work"
+    },
+    {
+      "requirement": "Task03/outputs/predicted_output.txt immutable",
+      "status": "PASS",
+      "evidence": "Matches pre-execution commit c9dd5c2"
+    },
+    {
+      "requirement": "Task03/outputs/predicted_output.txt chronological order",
+      "status": "PASS",
+      "evidence": "c9dd5c2 precedes recorded execution"
+    },
+    {
+      "requirement": "Task03/outputs/predicted_output.txt commit ancestor",
+      "status": "PASS",
+      "evidence": "Prediction commit is an ancestor of current work"
+    },
+    {
+      "requirement": "Task05/outputs/predicted_output.txt immutable",
+      "status": "PASS",
+      "evidence": "Matches pre-execution commit cbc5040"
+    },
+    {
+      "requirement": "Task05/outputs/predicted_output.txt chronological order",
+      "status": "PASS",
+      "evidence": "cbc5040 precedes recorded execution"
+    },
+    {
+      "requirement": "Task05/outputs/predicted_output.txt commit ancestor",
+      "status": "PASS",
+      "evidence": "Prediction commit is an ancestor of current work"
+    },
+    {
+      "requirement": "Task07/outputs/redesign_prediction.md immutable",
+      "status": "PASS",
+      "evidence": "Matches pre-execution commit a8e1a25"
+    },
+    {
+      "requirement": "Task07/outputs/redesign_prediction.md chronological order",
+      "status": "PASS",
+      "evidence": "a8e1a25 precedes recorded execution"
+    },
+    {
+      "requirement": "Task07/outputs/redesign_prediction.md commit ancestor",
+      "status": "PASS",
+      "evidence": "Prediction commit is an ancestor of current work"
+    },
+    {
+      "requirement": "Q1 supplied prediction preserved",
+      "status": "PASS",
+      "evidence": "Source text matches PDF extraction"
+    },
+    {
+      "requirement": "Q5 supplied prediction preserved",
+      "status": "PASS",
+      "evidence": "Source text matches PDF extraction"
+    },
+    {
+      "requirement": "Q1 TODO-only editing",
+      "status": "PASS",
+      "evidence": "Only TODO regions replaced; surrounding supplied text retained"
+    },
+    {
+      "requirement": "Q5 TODO-only editing",
+      "status": "PASS",
+      "evidence": "Only TODO regions replaced; surrounding supplied text retained"
+    },
+    {
+      "requirement": "Q6 TODO-only editing",
+      "status": "PASS",
+      "evidence": "Only TODO regions replaced; surrounding supplied text retained"
+    },
+    {
+      "requirement": "Task01/complete_code.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task01/complete_code.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task01/complete_code.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task01/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task01/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task01/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task01/predict_output.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task02/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task02/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task02/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task03/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task03/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task03/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task04/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task04/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task04/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task05/complete_code.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task05/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task05/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task05/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task05/predict_output.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task06/complete_code.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task06/main.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task06/main.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task06/main.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp online provenance",
+      "status": "PASS",
+      "evidence": "Online source hash matches current file"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp online output",
+      "status": "PASS",
+      "evidence": "Actual Programiz result begins with all expected stdout characters"
+    },
+    {
+      "requirement": "Task07/programiz_demo.cpp screenshot",
+      "status": "PASS",
+      "evidence": "Genuine browser capture saved with actual execution"
+    },
+    {
+      "requirement": "no binaries or secrets tracked",
+      "status": "PASS",
+      "evidence": "git ls-files contains no build products/toolchain archives"
+    },
+    {
+      "requirement": "Q1 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q2 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q3 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q4 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q5 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q6 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    },
+    {
+      "requirement": "Q7 documentation",
+      "status": "PASS",
+      "evidence": "Explanation and executed test table exist"
+    }
+  ]
+}

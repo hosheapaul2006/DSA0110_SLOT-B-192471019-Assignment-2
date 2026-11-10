@@ -11,12 +11,12 @@ public:
     explicit BusTicket(const std::string& n) : seat(0), name(n) 
     { 
         if (issued < CAPACITY) seat = ++issued;
-} 
+    } 
  
     static int count() 
     { 
         return issued;
-} 
+    } 
  
     void print() const 
     { 

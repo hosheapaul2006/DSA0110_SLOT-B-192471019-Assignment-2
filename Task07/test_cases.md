@@ -9,4 +9,4 @@
 | 5 | 100000 full-history updates, capacities10,50,1000 | Exact final input suffix | Checked outside each timing | PASS |
 | 6 | Five trials per capacity, both -O0/-O2 | Comparable real measurements, equal checksums | Raw CSV plus verification JSON | PASS |
 
-See comparison.md for the objective evaluation. programiz_demo.cpp is a self-contained source assembled from the same history and validation definitions so Programiz can compile it without extra files; it is also compiled and executed locally before online use.
+See comparison.md for the objective evaluation. validation_demo.cpp preserves the combined full validation. programiz_demo.cpp is a self-contained demonstration assembled from the same history definitions; it prints the original/redesigned retained sequences without validation labels and is compiled locally before Programiz execution.
