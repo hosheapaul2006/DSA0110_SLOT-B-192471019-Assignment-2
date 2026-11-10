@@ -1,0 +1,7 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task02\unsafe_local.cpp: In function 'int& danglingReference()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task02\unsafe_local.cpp:4:12: warning: reference to local variable 'localMark' returned [-Wreturn-local-addr]
+    4 |     return localMark;
+      |            ^~~~~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task02\unsafe_local.cpp:3:9: note: declared here
+    3 |     int localMark=90;
+      |         ^~~~~~~~~

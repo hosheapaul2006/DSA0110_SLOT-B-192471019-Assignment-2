@@ -1,0 +1,21 @@
+{
+  "source": "Task02/unsafe_local.cpp",
+  "sha256": "eeb206d459c8ca657e5f638432358093854ae1e2019880a51733a0c698ad16cb",
+  "timestamp_utc": "2026-11-10T14:31:56.499266+00:00",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\Task02\\unsafe_local.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task02\\unsafe_local.exe",
+    "-Wreturn-local-addr"
+  ],
+  "compile_exit": 0,
+  "optimization": "-O0",
+  "expected_diagnostic": "warning",
+  "status": "PASS: warning captured; unsafe program NOT executed"
+}
