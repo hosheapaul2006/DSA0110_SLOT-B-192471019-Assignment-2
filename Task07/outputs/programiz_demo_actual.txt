@@ -1,0 +1,10 @@
+PASS shifting zero capacity rejected
+PASS shifting capacity=1 all 2500 snapshots match deque oracle
+PASS shifting capacity=10 all 2500 snapshots match deque oracle
+PASS shifting capacity=50 all 2500 snapshots match deque oracle
+PASS shifting capacity=1000 all 2500 snapshots match deque oracle
+PASS circular zero capacity rejected
+PASS circular capacity=1 all 2500 snapshots match deque oracle
+PASS circular capacity=10 all 2500 snapshots match deque oracle
+PASS circular capacity=50 all 2500 snapshots match deque oracle
+PASS circular capacity=1000 all 2500 snapshots match deque oracle

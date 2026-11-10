@@ -1,0 +1,24 @@
+{
+  "source": "Task07/redesigned.cpp",
+  "sha256": "57515b63678c4adac2b2baf23b28313801e2a6d9b1c8e5ab62f65c83685521bc",
+  "timestamp_utc": "2026-11-10T14:39:58.916842+00:00",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\Task07\\redesigned.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task07\\redesigned.exe"
+  ],
+  "compile_exit": 0,
+  "optimization": "-O0",
+  "expected_diagnostic": null,
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task07\\redesigned.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}
