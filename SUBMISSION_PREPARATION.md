@@ -12,9 +12,7 @@ benchmark measurements, genuine Programiz screenshots, test tables, README and v
 
 ## Current access and approval state
 
-- GitHub repository exists and is public. The assignment source/evidence commits have been pushed to main.
-- The initial automatic approval rejection was resolved by the user's explicit
-  instruction to handle the GitHub push. The push to the existing main succeeded.
+- GitHub repository exists and is public. The source, evidence and report have been pushed to main.
 - Classroom opens Google sign-in and the school account is signed out. No course
   or assignment has been selected and nothing has been submitted or attached.
 - The user will submit Classroom personally; no final Classroom action is delegated.
@@ -27,7 +25,7 @@ benchmark measurements, genuine Programiz screenshots, test tables, README and v
 
 ## Manual Classroom steps if browser access remains unavailable
 
-1. After the final documentation push is completed, open the repository and verify the
+1. Open the published repository and verify the
    latest files, report and screenshots are visible.
 2. Sign in to Google Classroom with the school account.
 3. Open the verified DSA0110 Slot B course and Assignment2 (CO2). Check faculty,

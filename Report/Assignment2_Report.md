@@ -1782,9 +1782,7 @@ benchmark measurements, genuine Programiz screenshots, test tables, README and v
 
 ## Current access and approval state
 
-- GitHub repository exists and is public. The assignment source/evidence commits have been pushed to main.
-- The initial automatic approval rejection was resolved by the user's explicit
-  instruction to handle the GitHub push. The push to the existing main succeeded.
+- GitHub repository exists and is public. The source, evidence and report have been pushed to main.
 - Classroom opens Google sign-in and the school account is signed out. No course
   or assignment has been selected and nothing has been submitted or attached.
 - The user will submit Classroom personally; no final Classroom action is delegated.
@@ -1797,7 +1795,7 @@ benchmark measurements, genuine Programiz screenshots, test tables, README and v
 
 ## Manual Classroom steps if browser access remains unavailable
 
-1. After the final documentation push is completed, open the repository and verify the
+1. Open the published repository and verify the
    latest files, report and screenshots are visible.
 2. Sign in to Google Classroom with the school account.
 3. Open the verified DSA0110 Slot B course and Assignment2 (CO2). Check faculty,
@@ -1863,7 +1861,7 @@ Source: Reference/ASSIGNMENT 2.pdf, all15 pages. PASS means verified evidence; P
 | Compiler version,flags,commands,source hashes and real timestamps | PASS | Reference/compiler_version.txt; README; outputs/*_verification.json |
 | Progressive commits,at least one per task | PASS | Actual git history contains distinct Q1-Q7 implementation/evidence commits and earlier predictions |
 | Existing repository preserved and working public link | PASS | Remote URL verified; first source/evidence push to existing main succeeded |
-| All final files pushed and clean remote-matching working tree | PENDING | Final report/documentation commit and remote equality check follow PDF visual QA |
+| All final files pushed and clean remote-matching working tree | PASS | Source, evidence and report commit7aa59be pushed; local/remote hashes matched and clean tree verified; handoff rechecks final status commit |
 | README with identity,compiler,run steps,task results and report links | PASS | README.md |
 | Report Markdown and PDF with cover,source,tests,outputs,screenshots,complexity | PASS | Rendered pages reviewed; source, outputs, tables and genuine screenshot panels verified |
 | Viva preparation with likely questions and two modifications per task | PASS | VIVA_PREPARATION.md |
@@ -1873,7 +1871,7 @@ Source: Reference/ASSIGNMENT 2.pdf, all15 pages. PASS means verified evidence; P
 | Student individually executes every task including TODOs | PENDING | PDFp1; current automated/browser evidence does not certify personal execution |
 | Classroom correct course/assignment selection and final submission | PENDING | User explicitly chooses to submit personally; browser account signed out; materials prepared |
 
-The initial GitHub publication approval rejection was resolved by the user's later explicit request to handle pushing. The source/evidence push succeeded. Final remote equality is checked after the report commit. Classroom submission belongs to the user.
+The source, evidence and report are published in the existing repository. The final handoff verifies remote equality and a clean working tree. Classroom submission belongs to the user.
 
 Current online evidence is in screenshots/; eight earlier authentic captures remain in outputs/initial_execution/screenshots/ for provenance. Console demonstrations omit PASS labels. Validation logs and the required test tables retain statuses.
 

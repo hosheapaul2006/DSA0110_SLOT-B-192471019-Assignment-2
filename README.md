@@ -142,9 +142,9 @@ from the actual result pane and compared with local stdout. Original predictions
 and their commit order are preserved in [the prediction history](Reference/PREDICTION_HISTORY.md).
 
 The report contains a faculty-verifiable evidence trail. Completion is limited by
-Classroom sign-in/submission and faculty acceptance items. The source/evidence
-commits have been pushed to the existing main after the user explicitly approved
-handling GitHub; the final report/documentation push is part of final verification. The current
+Classroom sign-in/submission and faculty acceptance items. All source, evidence
+and report files have been pushed to the existing main; final handoff verifies
+a clean working tree and matching local/remote commit hashes. The current
 repository name differs from the PDF's `DSA01-192471019-Assignment2` convention and
 is intentionally preserved as requested. The PDF deadline was 31 October 2026;
 actual work is dated 10 November 2026. Faculty acceptance of the naming/deadline
