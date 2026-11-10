@@ -1,0 +1,19 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp: In function 'int main()':
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:5:11: error: call of overloaded 'charge(double)' is ambiguous
+    5 |     charge(2.0);       // Deliberately ambiguous: one-argument vs defaults.
+      |     ~~~~~~^~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:1:8: note: candidate: 'double charge(double)'
+    1 | double charge(double weight);
+      |        ^~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:3:8: note: candidate: 'double charge(double, bool, bool)'
+    3 | double charge(double weight, bool express = false, bool insured = false);
+      |        ^~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:6:11: error: call of overloaded 'charge(double, bool)' is ambiguous
+    6 |     charge(2.0,true);  // Deliberately ambiguous: two-argument vs defaults.
+      |     ~~~~~~^~~~~~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:2:8: note: candidate: 'double charge(double, bool)'
+    2 | double charge(double weight, bool express);
+      |        ^~~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-2\Task03\ambiguity.cpp:3:8: note: candidate: 'double charge(double, bool, bool)'
+    3 | double charge(double weight, bool express = false, bool insured = false);
+      |        ^~~~~~

@@ -1,0 +1,20 @@
+{
+  "source": "Task03/ambiguity.cpp",
+  "sha256": "58bd400deb52177a6b523d593d8aade6a18d81a5133948688ddc122e1c19d227",
+  "timestamp_utc": "2026-11-10T14:33:39.965379+00:00",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\Task03\\ambiguity.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task03\\ambiguity.exe"
+  ],
+  "compile_exit": 1,
+  "optimization": "-O0",
+  "expected_diagnostic": "error",
+  "status": "PASS: expected ambiguity diagnostic"
+}
