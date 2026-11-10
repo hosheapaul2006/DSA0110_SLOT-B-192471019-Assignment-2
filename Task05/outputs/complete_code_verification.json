@@ -1,0 +1,25 @@
+{
+  "source": "Task05/complete_code.cpp",
+  "sha256": "183e20751af6e7f6e75d40a0dfacca0506ea9c8900a659c1ed216a3f568f2334",
+  "timestamp_utc": "2026-11-10T14:36:05.093602+00:00",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\Task05\\complete_code.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task05\\complete_code.exe"
+  ],
+  "compile_exit": 0,
+  "optimization": "-O0",
+  "expected_diagnostic": null,
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-2\\build\\Task05\\complete_code.exe"
+  ],
+  "run_exit": 0,
+  "prediction_comparison": "PASS: identical characters with platform newline normalization only",
+  "status": "PASS"
+}
